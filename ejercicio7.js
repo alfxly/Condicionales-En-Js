@@ -1,8 +1,8 @@
-let year = 2024; // Año a verificar
-let isLeapYear = (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+var año = 2024; 
+var esBisiesto = año % 4 === 0;
 
-if (isLeapYear) {
-  console.log(year + ' es un año bisiesto.');
+if (esBisiesto) {
+  console.log(año + ' es un año bisiesto.');
 } else {
-  console.log(year + ' no es un año bisiesto.');
+  console.log(año + ' no es un año bisiesto.');
 }
